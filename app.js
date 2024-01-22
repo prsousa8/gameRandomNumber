@@ -66,7 +66,7 @@ function reiniciarJogo() {
     limpar_Campo();
     tentativas = 1;
     exibirTextoTela('h1', 'Jogo do número secreto');
-    exibirTextoTela('p', 'Escola um número de 1 a 10');
+    exibirTextoTela('p', 'Escolha um número de 1 a 10');
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
 
